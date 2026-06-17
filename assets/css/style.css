@@ -80,3 +80,12 @@ section{padding:80px 5vw}.section-head{display:flex;justify-content:space-betwee
     grid-template-columns: 1fr;
   }
 }
+
+@media(max-width:1000px){
+  .nav .links{display:flex;gap:0;margin-left:auto;align-items:center;}
+  .nav .links>a{display:none;}
+  .nav .links .lang-switcher{display:inline-block!important;margin-left:0!important;}
+  .nav>.btn.gold{display:none;}
+  .lang-dropdown{right:0;left:auto;}
+}
+
