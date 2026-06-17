@@ -18,6 +18,20 @@
       "permanent": true
     }
   ],
+  "rewrites": [
+    {
+      "source": "/fr",
+      "destination": "/fr/index.html"
+    },
+    {
+      "source": "/de",
+      "destination": "/de/index.html"
+    },
+    {
+      "source": "/es",
+      "destination": "/es/index.html"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
